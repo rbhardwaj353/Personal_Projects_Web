@@ -1,0 +1,59 @@
+body{
+	font-family: 'Pangolin', cursive;
+}
+
+h1{
+	margin: 0 0 0 0;
+	color: black;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+
+section{
+	background-color: #ffa07a;
+	color: black;
+	font-size: 18px;
+}
+.content{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.navbar{
+	background-color: skyblue;
+	height: 75px;
+}
+.heading{
+	text-align: center;
+}
+
+.heading h1{
+	color: blue;
+}
+
+.navbar-nav{
+	margin-top: 5px;
+	font-size: 28px;
+	text-align: center;
+	display: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 767px){
+	.content{
+		margin-top: 140px;
+	}
+	.navbar-nav{
+		display: block;
+		text-align: center;
+	}
+}
