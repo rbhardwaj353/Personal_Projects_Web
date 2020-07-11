@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+	margin-bottom: 15px;
+}
+section{
+	height: 400px;
+}
+
+#section1{
+	background-color: skyblue;
+}
+#section2{
+	background-color: lightgreen;
+}
+#section3{
+	background-color: #FE74A7;
+}
+
+h2{
+	text-align: center;
+	color: #f4f;
+}
+
+
+.container {
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px 2px;
+  align-content: center;
+}
+
+.btn,.btn-sm, .btn-block{
+	margin: 10px 10px 10px 10px;
+	font-size: 25px;
+}
